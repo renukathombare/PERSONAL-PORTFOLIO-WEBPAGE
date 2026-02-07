@@ -37,3 +37,15 @@ Statistical Visualization: The "Work Done" section was a deep dive into CSS Grid
 
 Challenges and Solutions
 One of the primary challenges was ensuring image responsiveness without losing quality. I solved this by using a combination of Bootstrap’s .img-fluid class and custom height constraints to ensure that images like the "About Me" portrait look professional on all screen widths. Furthermore, I managed the complexity of a dark theme by carefully selecting a palette that ensures high readability, using light-gray text (#cbd5e0) against dark-charcoal backgrounds to reduce eye strain.##
+
+
+OUTPUT : 
+<img width="1282" height="865" alt="Image" src="https://github.com/user-attachments/assets/8e308e07-fa5f-4e9c-9ac9-b9043334f8ea" />
+
+<img width="1240" height="807" alt="Image" src="https://github.com/user-attachments/assets/289de8cd-b341-408f-be17-471809144a5b" />
+
+<img width="1271" height="693" alt="Image" src="https://github.com/user-attachments/assets/37cf0540-82df-4bf3-9699-ed2f8d0a6040" />
+
+<img width="1267" height="680" alt="Image" src="https://github.com/user-attachments/assets/6ca109f0-221c-4631-9478-462eb651b9fb" />
+
+
