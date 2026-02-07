@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/* Navbar */
+.logo {
+    color: white;
+    font-weight: bold;
+}
+
+.border-link {
+    border: 2px solid #4b6cc1;
+    padding: 5px 10px;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+/* Banner */
+.Portfolio-Website-Navbar-Banner-Section {
+    background-color: #191a1d;
+    padding: 50px 0;
+}
+
+.banner-image {
+    height: 300px;
+    width: 300px;
+    object-fit: contain;
+}
+
+.intro-name {
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.highlite {
+    color: #4b6cc1;
+}
+
+.para {
+    color: #9aa5b1;
+    font-size: 24px;
+}
+
+.custom-button {
+    color: white;
+    background-color: #4b6cc1;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-weight: bold;
+}
+
+/* About Me */
+.Portfolio-Website-About-Me-Sections {
+    background-color: #323f4b;
+}
+
+.portfolio-about-me-img {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px;
+}
+
+.heading-1 {
+    color: #cced00;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.about-me-heading {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.paragraph1, .paragraph2 {
+    color: #cbd5e0;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Skills */
+.skills-section {
+    background-color: #1f2933;
+}
+
+.skills-container {
+    background-color: #323f4b;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    width: 120px;
+    transition: transform 0.3s;
+}
+
+.skills-container:hover {
+    transform: translateY(-5px);
+}
+
+.skills-png {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.skill-name {
+    color: white;
+    font-size: 16px;
+    margin: 0;
+}
+
+/* Projects */
+.Portfolio-Website-Projects-Sections {
+    background-color: #3e4c59;
+}
+
+.Projects-done-heading {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.bg-container {
+    background-color: #323f4b;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 100%;
+}
+
+.project-card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.web-design-text {
+    color: #9aa5b1;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.project-name {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.description {
+    color: #cbd5e0;
+    font-size: 16px;
+}
+
+.menu-item-link {
+    color: #d0b200;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Work Done Stats Section */
+.background-image {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                url("https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/portfolio-work-done-bg.png");
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.work-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+.icon {
+    font-size: 40px;
+    color: #4b6cc1;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.box h3 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.box p {
+    font-size: 16px;
+    color: #cbd5e0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .work-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .background-image {
+        height: auto;
+        padding: 50px 0;
+    }
+}
